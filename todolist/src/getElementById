@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+<javascript>
+   getValue(){
+var x=document.getElementById("h1")
+alert(x.innerHTML)
+
+   }
+
+</javascript>
+</head>
+<body>
+	<h1 id='h1' onclick="getValue()">慕课网</h1>
+</body>
+</html>

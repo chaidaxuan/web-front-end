@@ -1,0 +1,9 @@
+class polypon{
+	constructor(){
+	this.name = "polygon"
+	}
+}
+
+var poly1 = new polygon();
+
+

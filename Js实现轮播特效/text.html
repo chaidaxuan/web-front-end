@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	    <span>body span</span>
+    <span>body span</span>
+    <span>body span</span>
+    <div class="wrap">
+        <span>wrap span</span>
+        <span>wrap span</span>
+        <span>wrap span</span>
+    </div>
+</body>
+<script src="js/script3.js">
+	    $('span').css('background-color','red');//所有的span都会变红
+      $('span','.wrap').css('background-color','red');//只有.wrap中的span会变红
+</script>
+</html>
